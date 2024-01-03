@@ -23,9 +23,9 @@ Things got a bit harder with the testing fundamentals. I had no idea what accept
 
 ### Part 3: Building an Application
 
-I think building an application was smooth sailing. Most of the things used were covered previously, and I was keeping track of things and resources using Notion. If I forgot something, I would go back and do a quick read. Even then, if I didn't get it, I would rewatch the videos on that particular topic and go back. Here's a [repo](https://github.com/cosmos-369/learningGo) that i used to keep track of things, and I've also linked my Notion notes for some of the chapters. Take a look if you like!
+I think building an application was smooth sailing. Most of the things used were covered previously, and I was keeping track of things and resources using Notion. If I forgot something, I would go back and do a quick read. Even then, if I didn't get it, I would rewatch the videos on that particular topic and go back. Here's a [repo](https://github.com/sanjayJ369/learningGo) that i used to keep track of things, and I've also linked my Notion notes for some of the chapters. Take a look if you like!
 
 Overall, I feel like "Learn Go with Tests" was a pretty good experience and helped me pick up a lot of new things, not just language-specific but programming-related in general. It was challenging enough to keep me engaged but not so hard that I wanted to give up. If you're a beginner-intermediate programmer, I think you should definitely give it a try.
 
-github repo used to track progress: <https://github.com/cosmos-369/learningGo>\
-my github repo: <https://github.com/cosmos-369>
+github repo used to track progress: <https://github.com/sanjayJ369/learningGo>\
+my github repo: <https://github.com/sanjayJ369>
