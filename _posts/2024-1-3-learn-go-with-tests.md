@@ -1,6 +1,6 @@
 ---
 title: "learn go with tests"
-last_modified_at: 2023-03-01
+last_modified_at: 2024-01-03
 categories:
   - Blog
 tags:
