@@ -1,6 +1,6 @@
 ---
-title: "event modelling"
-last_modified_at: 2024-1-11
+title: "event modeling"
+last_modified_at: 2024-01-12
 categories:
   - Blog
 tags:
@@ -9,62 +9,53 @@ tags:
 
 # event modelling
 
-**what is event modelling?**
+**What is event modeling?**
 
-event modelling is a simple technique that we use to design a system, event modelling generally takes quite less time to learn and to get started, in event modelling we use sticky notes to write things down,
+Event modeling is a simple technique used to design a system. It generally takes relatively little time to learn and get started. In event modeling, we use sticky notes to write things down.
 
-stickies colour and their purpose:
+**Sticky note colors and their purposes:**
 
-we use **orange sticky** to represent an event, we write down the event occurrence in past tense, events are generally triggered by the UI or by some external API
+- **Orange sticky notes:** Represent events. We write down the event occurrence in the past tense. Events are generally triggered by the UI or by some external API.
+  - Examples: Position updated, request received, response sent
+- **Blue sticky notes:** Represent commands. We write down the command as an assertive sentence. A command is something that modifies the system state and is caused to happen.
+  - Examples: Update player health, send request
+- **Green sticky notes:** Represent views. A view is like a snapshot of the current system state. It can be used to display the current state of the system to the user and can also be used by other system applications.
+  - Examples: Display player's health
 
-example: position updated, request received, response sent
+**Let's try to create an event modeling diagram for a simple fitness app that we will be making.**
 
-we use **blue sticky** to represent a command, we write down the command as assertive sentence, a command is something which modifies the system state, a command is caused to
+**Let's start with what we want our app to do:**
 
-example: update player health, send request
+- Display today's to-do exercises
+- Send reminder notifications to exercise
+- Keep track of streaks
 
-we use **green sticky** to represent a view, a view is like a snapshot of the current system state, it can be used to display the current state of the system to the user and can also be used by other system applications
+**Now that we know what our simple app should do, let's think about the events. Here are a few that I came up with:**
 
-example: display player’s health
-
-lets try to create an event modelling diagram for a simple fitness app that we will be making
-
-lets start with what we want our app to do:
-
-- display today’s to do exercises
-- reminder notifications to exercise
-- keep track of the streaks
-
-now that we know what our simple app should do let’s think about the event, here are a few that i came up with:
-
-- requested today’s exercises
-- completed today's exercises
-- alarm set
-- notification sent
-- requested current streak
-- set time reached
+- Requested today's exercises
+- Completed today's exercises
+- Alarm set
+- Notification sent
+- Requested current streak
+- Set time reached
 
 ![Untitled](/assets/images/2024-1-11-event-modelling/Untitled.png)
 
-now that we have our events let’s see how to these event can be triggered, we use simple wire frames or actual screenshot of app if it’s already developed, to represent the UI, we align the UI wire frame with the event which will be triggered by user interaction
+Now that we have our events, let's see how these events can be triggered. We use simple wireframes or actual screenshots of the app (if it's already developed) to represent the UI. We align the UI wireframe with the event that will be triggered by user interaction.
 
-so here what i have got now
+![Untitled](/assets/images/2024-1-11-event-modelling/Untitled1.png)
 
-<img src="/assets/images/2024-1-11-event-modelling/Untitled%201.png" style="padding:10px"/>
+Now, let's add the blue sticky notes for the commands that need to be executed in order to trigger the events. Commands generally act as inputs from the user that change the state of the system
 
-now add the blue sticky notes for the commands which are needed to be executed in order to trigger the events, commands generally act as inputs from the user which change the state of the system
+![Untitled](/assets/images/2024-1-11-event-modelling/Untitled2.png)
 
-now here is what i have:
+And now, let's also include green sticky notes, which are generally used to display the state of the system. You can also use gears or other diagrams to represent work done by the API used by our app. Here, I have represented it as a cloud as a process.
 
-![Untitled](/assets/images/2024-1-11-event-modelling/Untitled%202.png)
-
-and now also include green sticky notes, which are generally used to display the state of the system you can also use gears or other diagram to represent work done by the API used by our app, here i have represented it as a cloud as a process and here is my final take
-
-![Untitled](/assets/images/2024-1-11-event-modelling/Untitled%203.png)
+![Untitled](/assets/images/2024-1-11-event-modelling/Untitled3.png)
 
 to know more about event modelling see: [https://eventmodeling.org/posts/what-is-event-modeling/](https://eventmodeling.org/posts/what-is-event-modeling/)
 
-**why we need to use event modelling?**
+**Why we need to use event modelling?**
 
 i feel like event modelling helps us understand the overall working of the system better
 
