@@ -3,6 +3,11 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi, I am a computer science engineering student with an interest in programming, particularly web development. I engage in the online community under the handle "Matrix"
+Currently, I am pursuing my B.E. in Computer Science Engineering, I am currently focused on expanding my programming skill set.
+Beyond coding, I like to do 3D art and also play chess(i am not very good at it though)
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I invite you to explore my work
+GitHub Portfolio: https://github.com/sanjayJ369
+Game that i made some time ago: https://matrix369.itch.io/brick-breaker
+3D Art: https://www.instagram.com/matrix_336699/
