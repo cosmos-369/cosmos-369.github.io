@@ -7,8 +7,6 @@ tags:
   - learn
 ---
 
-# Internet
-
 ## How information is sent across the internet?
 
 Internet is a network of networks, billions of computers interconnect make the internet, information is sent across the internet in the form of packets, packets can be thought of a little containers of data, if you want to share an image to your friend, first the large image is broken down into number of packets, and these packets are transferred to your friend’s computer, in your friends computer they are reordered and assembled together(not necessarily) to form the image
