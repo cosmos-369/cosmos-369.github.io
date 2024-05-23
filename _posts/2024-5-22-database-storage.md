@@ -121,9 +121,9 @@ So, how does the DBMS know which block to store the record in? There are multipl
 
   - In sequential file organization, records are stored in a specific order based on a **search key**. Sequential file organization is useful for displaying and computing queries.
   - Each record stores a pointer to the next record, which comes after it sequentially. Here, the records are also stored as physically close as possible to reduce disk read time.
-  - For instance, say we have a relation stored in sequential file organization, and the search key is `Id`. If we want to insert a new record, "D," whose `Id` is 4, the DBMS first locates the record that comes before `Id` 4, which is 3. If 3 is deleted, 4 is stored there; if not, 4 is stored as a new overflow record, and 3 points to that overflow block.
+  - For instance, say we have a relation stored in sequential file organization, and the search key is `Id`. If we want to insert a new record, "D," whose `Id` is 4, the DBMS first locates the record that comes before `Id` 4, which is 3. if there is free space in the same block 4 is stored there; if not, 4 is stored as a new overflow block, and 3 points to that overflow block.
 
-  ![deletion](/assets/images/2024-5-22-database-storage/deletion.png)
+![deletion](/assets/images/2024-5-22-database-storage/deletion.png)
 
 - **Multitable Clustering File Organization:**
   - In multitable clustering file organization, records belonging to different relations are stored on a single page or block. This form of file organization helps when handling JOIN queries.
