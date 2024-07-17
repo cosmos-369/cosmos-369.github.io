@@ -125,7 +125,7 @@ Binary Search Tree
 
 In m-way search trees, the structure of the node is a bit different. Here, each node can store multiple values. An m-way search tree of order n has n pointers to child nodes and has n - 1 values.
 
-Let's say a node of order n has pointers, p1, p2, ….., pn. Here, p1 and pn are n - 1 values, say v1, v2, v3, … vn-1. The pointer p1 is present at the left end and pointer pn is present at the right end.
+Let's say a node of order n has pointers, p1, p2, ….., pn. and n - 1 values, say v1, v2, v3, … vn-1. The pointer p1 is present at the left end and pointer pn is present at the right end.
 
 The values stored in the child node pointed by pointer p1 will be less than the value v1, and the values stored in the child node pointed by the pointer pn will be greater than the value vn-1. Let's say pointer pa is present between values va-1 and va. Here, the child node pointed by the pointer pa stores the values that are less than value va and greater than the value va-1.
 
